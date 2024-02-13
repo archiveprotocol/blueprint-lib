@@ -1,6 +1,6 @@
 {
   "name": "blueprint-lib",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -43,9 +43,11 @@
     "archive-axios": "https://github.com/archiveprotocol/archive-axios#v1.0.35",
     "axios": "^1.6.2",
     "bignumber.js": "^9.1.1",
+    "ethers": "5.7.2",
     "log4js": "^6.7.1",
     "logging-library": "https://github.com/archiveprotocol/logging-library#v1.0.27",
-    "logging-queue-interfaces": "https://github.com/archiveprotocol/logging-queue-interfaces#v1.0.17"
+    "logging-queue-interfaces": "https://github.com/archiveprotocol/logging-queue-interfaces#v1.0.17",
+    "web3-wrapper-library": "https://github.com/archiveprotocol/web3-wrapper-library#v3.2.5"
   },
   "engines": {
     "node": "20.9",
