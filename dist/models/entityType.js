@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.EntityType = void 0;
 var EntityType;
 (function (EntityType) {
-    EntityType["SNAPSHOT"] = "SNAPSHOT";
-    EntityType["INTERVAL_DATA"] = "INTERVAL_DATA";
-    EntityType["DEPENDENT_DATA"] = "DEPENDENT_DATA";
+    EntityType["SNAPSHOT"] = "snapshot";
+    EntityType["INTERVAL_DATA"] = "interval_data";
+    EntityType["DEPENDENT_DATA"] = "dependent_data";
 })(EntityType || (exports.EntityType = EntityType = {}));
 //# sourceMappingURL=entityType.js.map

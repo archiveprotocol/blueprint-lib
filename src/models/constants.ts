@@ -1,16 +1,17 @@
 export enum OperationType {
-  DEPOSIT = 'DEPOSIT',
-  WITHDRAW = 'WITHDRAW',
-  INCOME = 'INCOME',
-  TRANSFER_IN = 'TRANSFER_IN', //covers ONLY LP tokens and/or NFTs that are sent from protocol to user
-  TRANSFER_OUT = 'TRANSFER_OUT', //covers ONLY LP tokens and/or NFTs that are sent from user to protocol
-  NULL_OP = 'NULL_OP',
+  DEPOSIT = 'deposit',
+  WITHDRAW = 'withdraw',
+  INCOME = 'income',
+  TRANSFER_IN = 'transfer_in', //covers ONLY LP tokens and/or NFTs that are sent from protocol to user
+  TRANSFER_OUT = 'transfer_out', //covers ONLY LP tokens and/or NFTs that are sent from user to protocol
+  NULL_OP = 'null_op',
 }
 
 export enum TokenTag {
   EMPTY = '',
-  TRADE_FEES = 'tradeFees',
+  TRADE_FEES = 'trade_fees',
   REWARDS = 'rewards',
+  TRACKED_UNDERLYING = 'tracked_underlying',
 }
 
 export const STACKTRACE_KEY = 'stacktrace';

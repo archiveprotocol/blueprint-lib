@@ -1,15 +1,16 @@
 export declare enum OperationType {
-    DEPOSIT = "DEPOSIT",
-    WITHDRAW = "WITHDRAW",
-    INCOME = "INCOME",
-    TRANSFER_IN = "TRANSFER_IN",
-    TRANSFER_OUT = "TRANSFER_OUT",
-    NULL_OP = "NULL_OP"
+    DEPOSIT = "deposit",
+    WITHDRAW = "withdraw",
+    INCOME = "income",
+    TRANSFER_IN = "transfer_in",
+    TRANSFER_OUT = "transfer_out",
+    NULL_OP = "null_op"
 }
 export declare enum TokenTag {
     EMPTY = "",
-    TRADE_FEES = "tradeFees",
-    REWARDS = "rewards"
+    TRADE_FEES = "trade_fees",
+    REWARDS = "rewards",
+    TRACKED_UNDERLYING = "tracked_underlying"
 }
 export declare const STACKTRACE_KEY = "stacktrace";
 export declare const BTC_ADDRESS_MAINNET = "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599";

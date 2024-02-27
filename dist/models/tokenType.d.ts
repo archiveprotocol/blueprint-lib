@@ -1,5 +1,5 @@
 export declare enum TokenType {
-    NON_RECEIPT = "Non Receipt",
-    RECEIPT = "Receipt",
-    INCOME = "Income"
+    NON_RECEIPT = "non_receipt",
+    RECEIPT = "receipt",
+    INCOME = "income"
 }
