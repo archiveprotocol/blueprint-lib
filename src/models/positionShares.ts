@@ -17,6 +17,6 @@ export class PositionShares {
     /** It will be true in some cases where the position represents a liability instead of an asset (i.e. aave debt token) */
     public isLiabilityPosition: boolean = false,
     /** The fee (in USD) that the protocol took from the user as a platform toll (ie. liquidation fee) */
-    public platformTollUsd: number = 0,
+    public adjustmentValueUsd: number = 0,
   ) {}
 }

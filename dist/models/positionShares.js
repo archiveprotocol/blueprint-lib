@@ -22,13 +22,13 @@ class PositionShares {
     /** It will be true in some cases where the position represents a liability instead of an asset (i.e. aave debt token) */
     isLiabilityPosition = false, 
     /** The fee (in USD) that the protocol took from the user as a platform toll (ie. liquidation fee) */
-    platformTollUsd = 0) {
+    adjustmentValueUsd = 0) {
         this.sharesIdentifier = sharesIdentifier;
         this.amountAdded = amountAdded;
         this.sharePriceUsd = sharePriceUsd;
         this.positionBalance = positionBalance;
         this.isLiabilityPosition = isLiabilityPosition;
-        this.platformTollUsd = platformTollUsd;
+        this.adjustmentValueUsd = adjustmentValueUsd;
     }
 }
 exports.PositionShares = PositionShares;

@@ -15,7 +15,7 @@ export declare class PositionShares {
     /** It will be true in some cases where the position represents a liability instead of an asset (i.e. aave debt token) */
     isLiabilityPosition: boolean;
     /** The fee (in USD) that the protocol took from the user as a platform toll (ie. liquidation fee) */
-    platformTollUsd: number;
+    adjustmentValueUsd: number;
     constructor(
     /** Address of the receipt token, or if not receipt token, the address of the input token which will form the shares of the position */
     sharesIdentifier?: string, 
@@ -28,5 +28,5 @@ export declare class PositionShares {
     /** It will be true in some cases where the position represents a liability instead of an asset (i.e. aave debt token) */
     isLiabilityPosition?: boolean, 
     /** The fee (in USD) that the protocol took from the user as a platform toll (ie. liquidation fee) */
-    platformTollUsd?: number);
+    adjustmentValueUsd?: number);
 }
