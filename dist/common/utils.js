@@ -16,7 +16,7 @@ exports.populateUserListFromSubgraph = exports.getBlockTag = exports.formatAsDec
 const positionShares_1 = require("../models/positionShares");
 const bignumber_js_1 = __importDefault(require("bignumber.js"));
 function createNilPositionShares() {
-    return [new positionShares_1.PositionShares('', (0, bignumber_js_1.default)(0), 0, null, false)];
+    return [new positionShares_1.PositionShares('', 0, null, false)];
 }
 exports.createNilPositionShares = createNilPositionShares;
 function formatAsDecimalAwareString(balance, decimals = 18) {
