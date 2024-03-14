@@ -16,6 +16,16 @@ class Classification {
         this.gasTokenAmount = gasTokenAmount;
         this.positionShareDetails = positionShareDetails;
     }
+    getSharesAdded() {
+        if (this.operations.length == 0)
+            return (0, bignumber_js_1.default)(0);
+        return this.operations.reduce((toll, operation) => toll.plus(operation.amountAdded), (0, bignumber_js_1.default)(0));
+    }
+    getAdjustmentValueUsd() {
+        if (this.operations.length == 0)
+            return (0, bignumber_js_1.default)(0);
+        return this.operations.reduce((toll, operation) => toll.plus(operation.adjustmentValueUsd), (0, bignumber_js_1.default)(0));
+    }
 }
 exports.Classification = Classification;
 //# sourceMappingURL=classification.js.map

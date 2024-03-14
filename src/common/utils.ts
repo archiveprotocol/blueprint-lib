@@ -2,7 +2,7 @@ import { PositionShares } from '../models/positionShares';
 import BigNumber from 'bignumber.js';
 
 export function createNilPositionShares(): PositionShares[] {
-  return [new PositionShares('', BigNumber(0), 0, null, false)];
+  return [new PositionShares('', 0, null, false)];
 }
 
 export type UserAddressWithTimestamp = {
