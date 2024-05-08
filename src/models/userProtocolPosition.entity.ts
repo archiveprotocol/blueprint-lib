@@ -8,7 +8,6 @@ export class UserProtocolPosition {
   positionIdentifier: string;
   chainId: number;
   userProtocolPositionSnapshots: UserProtocolPositionSnapshot[];
-  userProtocolPositionExceptions: UserProtocolPositionException[];
   createdAt: Date;
   updatedAt: Date;
 }
