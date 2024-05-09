@@ -1,4 +1,3 @@
-import { UserProtocolPositionException } from './userProtocolPositionException.entity';
 import { UserProtocolPositionSnapshot } from './userProtocolPositionSnapshot.entity';
 export declare class UserProtocolPosition {
     id: number;
@@ -7,7 +6,6 @@ export declare class UserProtocolPosition {
     positionIdentifier: string;
     chainId: number;
     userProtocolPositionSnapshots: UserProtocolPositionSnapshot[];
-    userProtocolPositionExceptions: UserProtocolPositionException[];
     createdAt: Date;
     updatedAt: Date;
 }
